@@ -1,0 +1,26 @@
+# App Brewing Company — unified whitespace standard
+# Formatting tools read this file directly (shfmt, Prettier, EditorConfig-aware
+# editors); GitHub renders blobs and diffs with these widths too.
+# NOTE for shfmt: it applies this config ONLY when invoked with no formatting
+# flags — the mise format task deliberately calls `shfmt -w` / `shfmt -l` bare.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Language overrides — match each ecosystem's formatter
+# (shell inherits the 2-space default — Google shell style)
+[*.py]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Make requires literal tabs — syntax, not style
+[Makefile]
+indent_style = tab
