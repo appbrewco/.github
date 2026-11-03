@@ -4,7 +4,7 @@ on:
     types: [opened, edited, reopened, synchronize]
 jobs:
   call-conventional-pr-title:
-    uses: appbrewingcompany/.github-private/.github/workflows/conventional-pr-title.yml@main
+    uses: appbrewco/.github-private/.github/workflows/conventional-pr-title.yml@main
     with:
       # $default-runner: substituted by the seeder (self-hosted for private
       # repos, ubuntu-latest for public repos).

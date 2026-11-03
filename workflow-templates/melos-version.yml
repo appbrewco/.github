@@ -4,7 +4,7 @@ on:
     branches: [ $default-branch ]
 jobs:
   call-melos-version:
-    uses: appbrewingcompany/.github-private/.github/workflows/melos-version.yml@main
+    uses: appbrewco/.github-private/.github/workflows/melos-version.yml@main
     # No runner input: the reusable default (linux-light, 2026-10-15) applies.
     permissions:
       contents: write

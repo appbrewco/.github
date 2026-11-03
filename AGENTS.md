@@ -1,4 +1,4 @@
-# AGENTS.md — appbrewingcompany/.github
+# AGENTS.md — appbrewco/.github
 
 This repository is the org's PUBLIC defaults home: community-health
 defaults (issue/PR templates, SECURITY.md), the org profile, and the

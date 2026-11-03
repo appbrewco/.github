@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   call-node-verify:
-    uses: appbrewingcompany/.github-private/.github/workflows/node-verify.yml@main
+    uses: appbrewco/.github-private/.github/workflows/node-verify.yml@main
     with:
       # $default-runner: substituted by the seeder (self-hosted for private
       # repos, ubuntu-latest for public repos).

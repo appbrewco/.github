@@ -4,7 +4,7 @@ on:
     types: [opened, ready_for_review]
 jobs:
   call-auto-assign:
-    uses: appbrewingcompany/.github-private/.github/workflows/auto-assign-reviewer.yml@main
+    uses: appbrewco/.github-private/.github/workflows/auto-assign-reviewer.yml@main
     with:
       # $default-runner: substituted by the seeder (self-hosted for private
       # repos, ubuntu-latest for public repos).

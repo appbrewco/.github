@@ -10,6 +10,6 @@ jobs:
   label:
     # Implementation (runner choice, action version) lives in this repo's
     # .github/workflows/labeler.yml reusable workflow.
-    uses: appbrewingcompany/.github-private/.github/workflows/labeler.yml@main
+    uses: appbrewco/.github-private/.github/workflows/labeler.yml@main
     with:
       runner: $default-runner
